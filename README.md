@@ -1,7 +1,7 @@
 # Criacao-de-Site
 Atividade: fazer um site
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <meta charset="UTF-8"/>
