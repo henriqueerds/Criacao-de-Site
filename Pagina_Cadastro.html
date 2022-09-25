@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Quarto</title>
+    <link rel="stylesheet" type="text/css" href="instrucaoCss.css">
+    
+</head>
+<body>
+    <header class="cadastro">
+        <h1 style="height: 1.5em; background-color:  #42b6b88e;">Cadastro e Reserva de Quarto</h1>
+	
+    </header>
+    <nav>
+		<a href="Pagina Incial.html">Pagina Incial</a>
+		<a href="Quartos_Acomodações.html">Quartos/Acomodações</a>
+		<a href="Pagina_Cadastro.html">Página de Cadastro</a>
+	</nav><br>
+    <form>
+        <fieldset>
+            <legend>Dados Gerais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" minlength="3" id="nome" placeholder="Escreva seu Nome" style="width:420px ;
+            ">
+            <label for="data_nascimento">Data de Nacimento:</label>
+            <input type="date" id="data_nascimento;">
+            <label for="cpf">CPF:</label>
+            <input type="cpf" maxlength="11" id="cpf" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Hospedes</legend>
+            <label for="quat_hospede">Quat. de Hospedes:</label>
+            <select id="quat_hospede">
+                <option value="">Selecione</option>
+                <option value="1pessoa">1 pessoa</option>
+                <option value="2pessoa">2 pessoas</option>
+                <option value="3pessoas">3 pessoas</option>
+            </select>
+            <label>Quantidades de Quartos:</label>
+            <select id="quat_quartos">
+                <option value="1quarto">1 quarto</option>
+                <option value="2quartos">2 quartos</option>
+            </select>
+            <label for="data_reserva">Data da Reserva:</label>
+            <input type="date" id="data_reserva"><br><br>
+            <label for="nome1">Nome 1:</label>
+            <input type="text" minlength="3" id="nome1" placeholder="Escreva seu Nome" style="width:420px ;
+            ">
+            <label for="data_nascimento1">Data de Nacimento:</label>
+            <input type="date" id="data_nascimento1;">
+            <label for="cpf1">CPF:</label>
+            <input type="cpf" maxlength="11" id="cpf1" required><br><br>
+            <label for="nome2">Nome 2:</label>
+            <input type="text" minlength="3" id="nome2" placeholder="Escreva seu Nome" style="width:420px ;
+            ">
+            <label for="data_nascimento2">Data de Nacimento:</label>
+            <input type="date" id="data_nascimento2;">
+            <label for="cpf2">CPF:</label>
+            <input type="cpf" maxlength="11" id="cpf2" required><br><br>
+            <label for="nome3">Nome 3:</label>
+            <input type="text" minlength="3" id="nome3" placeholder="Escreva seu Nome" style="width:420px ;
+            ">
+            <label for="data_nascimento3">Data de Nacimento:</label>
+            <input type="date" id="data_nascimento3;">
+            <label for="cpf3">CPF:</label>
+            <input type="cpf" maxlength="11" id="cpf3" required><br><br>
+
+        </fieldset><br>
+        <div class="cadastro"><button class="cadastro"><a href="reserva_concluida.html" class="cadastro">Enviar</a></button></div>
+    </form>
+</body>
+</html>
